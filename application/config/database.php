@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'pgsql:host=ec2-107-21-205-128.compute-1.amazonaws.com;port=5432;dbname=d89okga5k681os',
-	'hostname' => '',
+	'hostname' => 'ec2-107-21-205-128.compute-1.amazonaws.com',
 	'username' => 'swdfaqxuiglnqm',
 	'password' => '6de5415dcdf1b0cb7e901cfcf7623c7c639583dffde621b0453ce1fb981f284a',
-	'database' => '',
-	'dbdriver' => '',
+	'database' => 'd89okga5k681os',
+	'dbdriver' => 'pgsql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
