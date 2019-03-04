@@ -27,6 +27,10 @@ class Welcome extends CI_Controller {
     prcp            real,          -- precipitation
     date            date
 )');
-		$this->load->view('welcome_message');
+$this->insert('weather',array('city'=>'San Francisco','temp_lo'=>46,'temp_hi'=>50,'prcp'=>0.25,'date'=>'1994-11-27');
+		$wr=$this->db->get('weather')->result();
+		print_r($wr);
+		//$this->load->view('welcome_message');
+		
 	}
 }
