@@ -7,5 +7,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome to CodeIgniter</title>
 </head>
 	<h1> Helllo CI</h1>
+	<h2>We are with Github</h2>
 </body>
 </html>
