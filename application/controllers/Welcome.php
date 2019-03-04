@@ -32,7 +32,7 @@ class Welcome extends CI_Controller {
 		
 	}
 	public function dbcheck(){
-		$this->insert('weather',array('city'=>'San Francisco','temp_lo'=>46,'temp_hi'=>50,'prcp'=>0.25,'date'=>'1994-11-27'));
+		$this->db->insert('weather',array('city'=>'San Francisco','temp_lo'=>46,'temp_hi'=>50,'prcp'=>0.25,'date'=>'1994-11-27'));
 		$wr=$this->db->get('weather')->result();
 		print_r($wr);
 	}
